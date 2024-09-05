@@ -32,7 +32,7 @@ public class Automating_Gmail_Application2 {
 		 */
 		By EmailIdProperty=By.xpath("//*[@id=\"identifierId\"]");
 		WebElement EmailId=driver.findElement(EmailIdProperty);
-		EmailId.sendKeys("n170062@rguktn.ac.in");
+		EmailId.sendKeys("sample@gmail.com");
 		/*
 		 * click on next button
 		 * Absolute xpath for next button=/html/body/div[1]/div[1]/div[2]/c-wiz/div/div[3]/div/div[1]/div/div/button/div[3]
@@ -49,7 +49,7 @@ public class Automating_Gmail_Application2 {
 		 */
 		WebDriverWait wait = new WebDriverWait(driver,10);
 		WebElement password = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[1]/div[2]/c-wiz/div/div[2]/div/div/div/form/span/section[2]/div/div/div[1]/div[1]/div/div/div/div/div[1]/div/div[1]/input ")));
-		password.sendKeys("6305534352");
+		password.sendKeys("123");
 		/*
 		 * 
 		 * /html/body/div[1]/div[1]/div[2]/c-wiz/div/div[3]/div/div[1]/div/div/button
